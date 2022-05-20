@@ -24,7 +24,7 @@ checkAnswer(userClickedPattern.length-1);
 });
 function playSound(name)
 {
-  var x= new Audio("sounds/"+name+".mp3")
+  var x= new Audio(name+".mp3")
   x.play();
 
 }
